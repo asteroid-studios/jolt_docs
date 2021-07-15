@@ -5,8 +5,10 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 module.exports = {
   title: "Jolt",
   tagline: "Framework for Flutter",
-  url: "https://github.com/asteroid-studios",
-  baseUrl: "/jolt_docs/",
+  // url: "https://github.com/asteroid-studios",
+  url: "/",
+  // baseUrl: "/jolt_docs/",
+  baseUrl: "/",
   trailingSlash: true,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -15,21 +17,21 @@ module.exports = {
   projectName: "jolt_docs", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "My Site",
-      logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
-      },
+      title: "Jolt",
+      // logo: {
+      //   alt: "My Site Logo",
+      //   src: "img/logo.svg",
+      // },
       items: [
         {
           type: "doc",
-          docId: "intro",
+          docId: "getting-started",
           position: "left",
-          label: "Tutorial",
+          label: "Docs",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        // { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/asteroid-studios",
           label: "GitHub",
           position: "right",
         },
@@ -42,8 +44,8 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "Docs",
+              to: "/docs/getting-started",
             },
           ],
         },
@@ -92,8 +94,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+          // editUrl:
+          //   "https://github.com/facebook/docusaurus/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
