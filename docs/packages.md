@@ -8,6 +8,8 @@ Here is a quick overview of all the available Jolt packages:
 
 ## Base
 
+The minimum required packages to use Jolt
+
 | Package                       | Description                                                     |
 | ----------------------------- | --------------------------------------------------------------- |
 | [**Jolt**](../jolt/jolt/)     | Wraps the Flutter app, for theming,utilities and configuration. |
@@ -15,12 +17,16 @@ Here is a quick overview of all the available Jolt packages:
 
 ## UI
 
+Packages to provide easy to use Flutter widgets. You should nearly always use the **Jolt UI** in a new Jolt project.
+
 | Package                         | Description                                                 |
 | ------------------------------- | ----------------------------------------------------------- |
 | [**Jolt UI**](../jolt/jolt/)    | Provides navigation, a page wrapper and a widget library    |
 | [**Jolt Icons**](../jolt/jolt/) | Icons from svgs supporting multi color, generator available |
 
 ## Server/Backend
+
+Jolt only supports using **one** server/auth package at a time.
 
 | Package                                | Description                                                                |
 | -------------------------------------- | -------------------------------------------------------------------------- |
