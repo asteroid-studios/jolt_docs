@@ -1,8 +1,17 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
 # Getting Started
+
+> ### Jolt is a collection of Flutter packages, designed to standardise and supercharge the process of developing cross-platform apps.
+
+## Your Environment
+
+Make sure you have already completed your [Flutter](https://flutter.dev/docs/get-started/install) installation, as well as [VS Code](https://code.visualstudio.com/).
+
+Also, install these [VS Code Extensions](../vscode/suggested-extensions.md) if you haven't already.
 
 ## Jolt CLI
 
@@ -25,26 +34,3 @@ Note: By default it will take the folder's name as project name
 You can name the project with `jolt create project:my_project`
 
 If the name has spaces use `jolt create project:"my cool project"`
-
-## Project structure
-
-Heres a quick rundown of your created project structure:
-
-```
-project
-│   README.md
-│   file001.txt
-│
-└───folder1
-│   │   file011.txt
-│   │   file012.txt
-│   │
-│   └───subfolder1
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
-│
-└───folder2
-    │   file021.txt
-    │   file022.txt
-```

@@ -9,7 +9,7 @@ module.exports = {
   url: "/",
   // baseUrl: "/jolt_docs/",
   baseUrl: "/",
-  trailingSlash: true,
+  // trailingSlash: true,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -29,7 +29,16 @@ module.exports = {
           position: "left",
           label: "Docs",
         },
-        // { to: "/blog", label: "Blog", position: "left" },
+        {
+          to: "packages",
+          label: "Packages",
+          position: "left",
+        },
+        {
+          to: "resources",
+          label: "Resources",
+          position: "left",
+        },
         {
           href: "https://github.com/asteroid-studios",
           label: "GitHub",
@@ -70,17 +79,13 @@ module.exports = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
               label: "GitHub",
               href: "https://github.com/facebook/docusaurus",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Jolt. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -92,16 +97,11 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // editUrl:
           //   "https://github.com/facebook/docusaurus/edit/master/website/",
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
