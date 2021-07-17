@@ -10,14 +10,20 @@ sidebar_label: "New Project"
 Your project has a local, staging and live environment set up by default. You can modify the configuration for each file in the `env.dart` for each environment.
 
 ```dart title="env/ _ chosen environment _ /env.dart"
+final env = JoltEnv(
 
+);
 ```
 
-> **TO-DOC** Switching Icons
+:::note
 
-:::tip Switching Environments
+The **bundleId** must be unique for each environment.
 
-You can switch between different environments by running:
+:::
+
+:::tip
+
+You can easily switch between different environments by running:
 
 ```bash
 jolt switch env
@@ -27,16 +33,18 @@ Where **env** is the name of your environment (local,staging,live).
 
 :::
 
-## Packages
+## Jolt App
 
-```yaml title="pubspec.yaml"
+Your project comes preconfigured with JoltApp instead of the usual Flutter MaterialApp.
 
-```
+To view all the available configuration options, check out the [**Jolt docs**](../jolt/jolt).
 
-## Linting
+## Backend
 
-Your project comes with [**lint**](https://pub.dev/packages/lint) setup by default. You can customise your linting rules in the `analysis-options.yaml`
+If you selected one of the available Jolt backend providers during project creation, your app may need some additional configuration.
 
-```yaml title="analysis-options.yaml"
-include: package:lint/analysis_options_package.yaml
-```
+Please check the [**setup**](../backend/backend) for your chosen backend if applicable.
+
+## What Next
+
+Once you have your app environment completely set up, have a read through the created project structure on the next page.
