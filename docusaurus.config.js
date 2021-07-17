@@ -5,12 +5,12 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 module.exports = {
   title: "Jolt",
   tagline: "Framework for Flutter",
-  // url: "https://github.com/asteroid-studios",
-  url: "/",
-  // baseUrl: "/jolt_docs/",
-  baseUrl: "/",
-  // trailingSlash: true,
-  onBrokenLinks: "throw",
+  url: "https://asteroid-studios.github.io",
+  // url: "/",
+  baseUrl: "/jolt_docs/",
+  // baseUrl: "/",
+  trailingSlash: true,
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "asteroid-studios", // Usually your GitHub org/user name.

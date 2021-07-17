@@ -21,7 +21,28 @@ By default it will take the folder's name as project name, unless specified
     jolt create project:"Project Name"
 ```
 
-### Create Service
+### Create Feature
+
+Creates an app feature, consisting of a model and provider, each with its own parent feature folder.
+
+```bash
+    jolt create feature:feature_name
+```
+
+<details>
+    <summary>Click to see example structure</summary>
+
+    models
+    |
+    └─── my_feature
+         └─── my_feature_model.dart
+
+    providers
+    |
+    └─── my_feature
+         └─── my_feature_provider.dart
+
+</details>
 
 ### Create View
 

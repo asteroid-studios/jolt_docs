@@ -11,11 +11,11 @@ slug: /
 
 Make sure you have already completed your [Flutter](https://flutter.dev/docs/get-started/install) installation, as well as [VS Code](https://code.visualstudio.com/).
 
-Also, install these [VS Code Extensions](../vscode/suggested-extensions.md) if you haven't already.
+Also, install these [VS Code Extensions](./vscode/suggested-extensions) if you haven't already.
 
 ## Jolt CLI
 
-The easiest way to get started using Jolt is to pull down and activate the **Jolt CLI**.
+The easiest way to get started using Jolt is to pull down and activate the **Jolt CLI** using your terminal.
 
 The first thing you will need to do is clone down the [**jolt_cli**](https://github.com/asteroid-studios/jolt_cli) repo from GitHub.
 
