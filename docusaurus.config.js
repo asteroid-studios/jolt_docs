@@ -18,10 +18,10 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: "Jolt",
-      // logo: {
-      //   alt: "My Site Logo",
-      //   src: "img/logo.svg",
-      // },
+      logo: {
+        alt: "Jolt Logo",
+        src: "img/logo.svg",
+      },
       items: [
         {
           type: "doc",
