@@ -1,17 +1,17 @@
 # Packages
 
+To see progress of the framework as a whole, see the [**Jolt Roadmap**](https://github.com/asteroid-studios/jolt_docs/projects/1).
+
 Here is a quick overview of all the available Jolt packages:
 
 ## Base
 
 The minimum required packages to use Jolt
 
-| Package                                  | Description                                                     | Version                                                                        | Repo                                                       |
-| ---------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------- |
-| [**flutter_jolt**](/docs/jolt/jolt/)     | Wraps the Flutter app, for theming,utilities and configuration. | [0.0.1](https://github.com/asteroid-studios/jolt/blob/master/CHANGELOG.md)     | [**GitHub**](https://github.com/asteroid-studios/jolt)     |
-| [**flutter_jolt_cli**](/docs/jolt/jolt/) | Environment switching and project management                    | [0.0.1](https://github.com/asteroid-studios/jolt_cli/blob/master/CHANGELOG.md) | [**GitHub**](https://github.com/asteroid-studios/jolt_cli) |
-
----
+| Package                                  | Description                                                     | Version                                                                        | Repo                                                       | Roadmap                                                            |
+| ---------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------ |
+| [**flutter_jolt**](/docs/jolt/jolt/)     | Wraps the Flutter app, for theming,utilities and configuration. | [0.0.1](https://github.com/asteroid-studios/jolt/blob/master/CHANGELOG.md)     | [**GitHub**](https://github.com/asteroid-studios/jolt)     | [Roadmap](https://github.com/asteroid-studios/jolt/projects/1)     |
+| [**flutter_jolt_cli**](/docs/jolt/jolt/) | Environment switching and project management                    | [0.0.1](https://github.com/asteroid-studios/jolt_cli/blob/master/CHANGELOG.md) | [**GitHub**](https://github.com/asteroid-studios/jolt_cli) | [Roadmap](https://github.com/asteroid-studios/jolt_cli/projects/1) |
 
 ## UI
 

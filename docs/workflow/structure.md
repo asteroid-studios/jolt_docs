@@ -21,7 +21,7 @@ app
 └─── lib
      │   main.dart
      |
-     └─── project
+     └─── app
      │
      └─── shared
      │
@@ -78,7 +78,7 @@ Any settings for your Jolt app can be found here, though it's recommended to kee
 
 ---
 
-### Project Folder
+### App Folder
 
 This folder will files that pertain to the settings of your Jolt app. Such as:
 
