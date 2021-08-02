@@ -88,7 +88,7 @@ Colors to be used on top of other colors.
 Used for elements such as text and icons
 
 ```dart
-    // Main Surface Highlight Color
+    // Surface Highlight Color
     // Used for text and icons
     context.colorOnSurface
 
@@ -96,16 +96,24 @@ Used for elements such as text and icons
     // Used for softer headings and icons
     context.colorOnSurfaceLight
 
+    // Inverse Surface Highlight Color
+    // Will generally be the complete inverse of colorOnSurface
+    context.colorOnInverse
+
+    // Light Surface Highlight Color
+    // Used for softer headings and icons
+    context.colorOnInverseLight
+
     // Primary Highlight Color
-    // Should be a color that stands out when on the primary color
+    // A varient of primary color that stands out on primary
     context.colorOnPrimary
 
     // Secondary Highlight Color
-    // Should be a color that stands out when on the secondary color
+    // A varient of secondary color that stands out on secondary
     context.colorOnSecondary
 
     // Tertiary Highlight Color
-    // Should be a color that stands out when on the tertiary color
+    // A varient of tertiary color that stands out on tertiary
     context.colorOnTertiary
 ```
 
@@ -130,6 +138,10 @@ Semantic colors are used to
     // Usually a shade of red
     context.colorError
 ```
+
+### Example
+
+![Example Themes](/img/docs/workflow/ExampleThemes.png)
 
 ## Icon Size
 
@@ -178,18 +190,18 @@ Jolt prepares the following spacers, which are all available via the context.
 Jolt prepares the following breakpoints, which are all available via the context.
 
 ```dart
-    // Layout width is mobile size or less
-    context.layoutMobile
+    // Device width is mobile size or less
+    context.breakpointMobile
 
-    // Layout width is tablet size or less
-    context.layoutTablet
+    // Device width is tablet size or less
+    context.breakpointTablet
 
-    // Layout width is landscape tablet size or less
-    context.layoutTabletLandscape
+    // Device width is landscape tablet size or less
+    context.breakpointTabletLandscape
 
-    // Layout width is desktop size or less
-    context.layoutDesktop
+    // Device width is desktop size or less
+    context.breakpointDesktop
 
-    // Layout width is larger than desktop
-    context.layoutUltraWide
+    // Device width is larger than desktop
+    context.breakpointUltraWide
 ```
