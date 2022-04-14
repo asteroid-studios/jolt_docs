@@ -38,6 +38,11 @@ module.exports = {
           position: "left",
         },
         {
+          to: "troubleshooting",
+          label: "Troubleshooting",
+          position: "left",
+        },
+        {
           href: "https://github.com/asteroid-studios",
           label: "GitHub",
           position: "right",
@@ -97,7 +102,8 @@ module.exports = {
       {
         docs: {
           routeBasePath: "/",
-          sidebarPath: require.resolve("./sidebars.js"),
+          path: 'docs',
+          sidebarPath: require.resolve("./sidebarsDocs.js"),
           // Please change this to your repo.
           // editUrl:
           //   "https://github.com/facebook/docusaurus/edit/master/website/",
@@ -109,6 +115,15 @@ module.exports = {
     ],
   ],
   plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'troubleshooting',
+        path: 'troubleshooting',
+        routeBasePath: 'troubleshooting',
+        sidebarPath: require.resolve('./sidebarsTroubleshooting.js'),
+      }, 
+    ],
     [
       "@docusaurus/plugin-pwa",
       {
