@@ -23,7 +23,7 @@ module.exports = {
       items: [
         {
           type: "doc",
-          docId: "getting-started",
+          docId: "welcome",
           position: "left",
           label: "Docs",
         },
@@ -104,6 +104,7 @@ module.exports = {
           routeBasePath: "/",
           path: 'docs',
           sidebarPath: require.resolve("./sidebarsDocs.js"),
+          remarkPlugins: [require('mdx-mermaid')],
           // Please change this to your repo.
           // editUrl:
           //   "https://github.com/facebook/docusaurus/edit/master/website/",

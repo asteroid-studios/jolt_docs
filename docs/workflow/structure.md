@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-sidebar_label: "Structure"
+sidebar_label: "!! Structure"
 ---
 
 # Project Structure
@@ -9,27 +9,108 @@ sidebar_label: "Structure"
 
 Heres a quick outline of a Jolt app structure:
 
+
+```mermaid
+classDiagram
+  direction LR
+    AppRootFolder-->assets
+    AppRootFolder-->env
+    AppRootFolder-->lib
+    lib-->app
+    lib-->barrels
+    lib-->models
+    lib-->providers
+    lib-->shared
+    lib-->views
+    app-->jolt
+    app-->layout
+    app-->routing
+    app-->ui
+    class AppRootFolder{
+         analysis_options.yaml
+         pubspec.yaml
+    }
+    class barrels{
+    }
+    class assets{
+    }
+    class env{
+         env.dart
+    }
+    class lib{
+         main.dart
+    }
+    class app{
+         app.dart
+    }
+    class layout{
+         layout.dart
+    }
+    class routing{
+         routesrouting.dart
+    }
+    class ui{
+         ui.dart
+    }
+    class jolt{
+         debug.dart
+         env_local.dart
+         env.dart
+         events.dart
+         jolt.dart
+         localisation.dart
+         themes.dart
+         typography.dart
+         window.dart
+    }
+
+```
+
+- AppRootFolder
+     - pubspec.yaml
+     - analysis_options.yaml
+     - **env**
+          - env.dart
+     - **assets**
+          - {assets go here}
+     - **lib**
+          - main.dart {the starting point for the app, you will want to initialse Jolt within this file}
+          - **app**
+               - {app config, logic and views go here}
+          - **barrels**
+               - {proxies that export various dependency files go here}
+          - **models**
+               - {models that are used within the application go here}
+          - **providers**
+          - **shared**
+          - **views**
+
 ```
 app
 │   pubspec.yaml
 │   analysis_options.yaml
 |
-└─── env
+└─── env/
+|    │   
+|    └─── env.dart
 |
-└─── assets
+└─── assets/
 │
 └─── lib
-     │   main.dart
+     │   
+     └─── main.dart
      |
-     └─── app
+     └─── app/
      │
-     └─── shared
+     └─── barrels/
      │
-     └─── models
+     └─── models/
      │
-     └─── providers
+     └─── providers/
      │
-     └─── views
+     └─── shared/
+     │
+     └─── views/
 ```
 
 Next we will break down each component.
@@ -137,7 +218,7 @@ Providers should also be grouped by feature like so:
 
 ---
 
-### Views Folder
+### lib/views Folder
 
 This folder will store the different views/screens/pages of your app.
 
