@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Preparing For Local Debug Builds
+# Debug Builds
 
 For iOS builds, you will need to open the macos/Runner.xcworkspace and ios/Runnerxcworkspace:
 

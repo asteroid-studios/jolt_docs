@@ -5,8 +5,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 module.exports = {
   title: "Jolt",
   tagline: "Framework for Flutter",
-  url: "https://jolt-docs.com",
-  baseUrl: "/",
+  url: "https://asteroid-studios.github.io/",
+  baseUrl: "/jolt_docs/",
   trailingSlash: true,
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
