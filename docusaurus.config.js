@@ -59,6 +59,14 @@ module.exports = {
               label: "Docs",
               to: "/docs/getting-started",
             },
+            {
+              label: "Troubleshooting",
+              to: "/troubleshooting",
+            },
+            {
+              label: "Switching",
+              to: "switching",
+            },
           ],
         },
         {
